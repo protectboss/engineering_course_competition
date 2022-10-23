@@ -1,0 +1,2 @@
+# engineering_course_competition
+大三上学期工科比赛，一年前由于杜邦线使用过多失败了，杜邦线最后起火，今年再次尝试
