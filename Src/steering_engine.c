@@ -8,11 +8,11 @@ void Steering_Engine_Init(void)
 
 void Steering_Engine_Prick_Balloon(void)
 {
- __HAL_TIM_SetCompare(&htim2,TIM_CHANNEL_3,1500);
+ __HAL_TIM_SetCompare(&htim2,TIM_CHANNEL_3,1000);
 }
 
 void Steering_Engine_Stop(void)
 {
- __HAL_TIM_SetCompare(&htim8,TIM_CHANNEL_1,2500);
+ __HAL_TIM_SetCompare(&htim2,TIM_CHANNEL_3,2500);
 }
 

@@ -28,6 +28,7 @@ remake_match\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i
 remake_match\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 remake_match\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 remake_match\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+remake_match\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 remake_match\stm32f1xx_it.o: ../Inc/stm32f1xx_it.h
 remake_match\stm32f1xx_it.o: ../Inc/tracking.h
 remake_match\stm32f1xx_it.o: ../Inc/mode.h

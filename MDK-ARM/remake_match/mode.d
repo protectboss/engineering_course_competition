@@ -30,8 +30,12 @@ remake_match\mode.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 remake_match\mode.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 remake_match\mode.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 remake_match\mode.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+remake_match\mode.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 remake_match\mode.o: ../Inc/chassis.h
 remake_match\mode.o: ../Inc/settlement.h
 remake_match\mode.o: ../Inc/tracking.h
 remake_match\mode.o: ../Inc/pid.h
 remake_match\mode.o: ../Inc/encoder.h
+remake_match\mode.o: ../Inc/steering_engine.h
+remake_match\mode.o: ../Inc/opencv.h
+remake_match\mode.o: ../Inc/usart.h
