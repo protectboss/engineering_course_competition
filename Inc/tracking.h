@@ -5,6 +5,7 @@
 void Read_GPIO(void);
 void Judge_Turn_Amplitude(void);
 void Car_Target_Speed(void);
+void Car_Target_Speed2(void);
 extern int write_time;
 
 

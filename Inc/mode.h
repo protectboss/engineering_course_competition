@@ -8,6 +8,7 @@ extern int8_t Step;
 void Step_One(void);
 void Step_Two(void);
 void Step_Three(void);
+void Step_Four(void);
 void Step_Judge(void);
 
 

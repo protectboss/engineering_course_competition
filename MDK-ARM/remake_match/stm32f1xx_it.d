@@ -36,3 +36,5 @@ remake_match\stm32f1xx_it.o: ../Inc/tim.h
 remake_match\stm32f1xx_it.o: ../Inc/encoder.h
 remake_match\stm32f1xx_it.o: ../Inc/chassis.h
 remake_match\stm32f1xx_it.o: ../Inc/pid.h
+remake_match\stm32f1xx_it.o: ../Inc/settlement.h
+remake_match\stm32f1xx_it.o: ../Inc/steering_engine.h

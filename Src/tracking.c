@@ -102,7 +102,7 @@ void Car_Target_Speed(void)
  switch(direction)
  {
 	case 0:Car_Forward(0);break;
-  case 1:Car_Forward(20);break;
+  case 1:Car_Forward(18);break;
 	
 	case 2:switch(amplitude)
 	{
@@ -120,3 +120,26 @@ void Car_Target_Speed(void)
  }
 }
 
+
+void Car_Target_Speed2(void)
+{
+ switch(direction)
+ {
+	case 0:Car_Forward(0);break;
+  case 1:Car_Forward(40);break;
+	
+	case 2:switch(amplitude)
+	{
+		case 3:Car_Turn(0,35);break;
+	  case 2:Car_Turn(0,30);break;
+		case 1:Car_Turn(35,40);break;
+	}break;
+	case 3:switch(amplitude)
+	{
+		case 3:Car_Turn(35,0);break;
+	  case 2:Car_Turn(30,0);break;
+		case 1:Car_Turn(40,35);break;
+	}break;
+	case 4:Car_Forward(10);break; 
+ }
+}
