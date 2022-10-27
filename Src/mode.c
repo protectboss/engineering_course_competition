@@ -88,7 +88,7 @@ void Step_Four(void)
  Car_Target_Speed2();
  WZ_Pid_Calculation();
  Chassis_WZPid_Output();
- if(write_time==400) Step=2;
+ if(write_time==100) Step=2;
  Steering_Engine_Stop();
 }
 

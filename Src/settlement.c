@@ -32,5 +32,5 @@ void Displacement_Settlement(void)
    Encoder_reset=1;
 	}
 	Read_Encoder_Sum();
-  Displacement_back(200,20);
+  Displacement_back(400,20);
 }

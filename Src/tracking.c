@@ -17,13 +17,13 @@ int write_time=0;
 
 void Read_GPIO(void)
 {
-	 tracking[6]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_6);
-	 tracking[5]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_5);
-	 tracking[4]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_4);
+	 tracking[6]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_0);
+	 tracking[5]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_1);
+	 tracking[4]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_2);
 	 tracking[3]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_3);
-	 tracking[2]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_2);
-	 tracking[1]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_1);
-	 tracking[0]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_0);
+	 tracking[2]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_4);
+	 tracking[1]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_5);
+	 tracking[0]=HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_6);
 }
 
 
